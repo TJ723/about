@@ -1,0 +1,84 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-item1 {
+    align-items: center;
+    z-index: -1;
+}
+
+.dot1 {
+    position: relative;
+    left: 470px;
+    top: -500px;
+    height: 75px;
+    width: 75px;
+    background-color: #FFB600;
+    z-index: 10;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+ .dot2 {
+    position: relative;
+    left: 430px;
+    top: -525px;
+    height: 150px;
+    width: 150px;
+    background-color: #FFB600;
+    z-index: 20;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot3 {
+    position: relative;
+    left: 350px;
+    top: -600px;
+    height: 300px;
+    width: 300px;
+    background-color: #FFB600;
+    z-index: 30;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot4 {
+    position: relative;
+    left: 200px;
+    top: -750px;
+    height: 600px;
+    width: 600px;
+    background-color: #FFB600;
+    z-index: 40;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot5 {
+    position: relative;
+    left: 30px;
+    top: -1200px;
+    height: 1200px;
+    width: 1200px;
+    background-color: #FFB600;
+    z-index: 50;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot6{
+    position: relative;
+    left: -500px;
+    top: -1800px;
+    height: 2400px;
+    width: 2400px;
+    background-color: #FFB600;
+    z-index: 60;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
